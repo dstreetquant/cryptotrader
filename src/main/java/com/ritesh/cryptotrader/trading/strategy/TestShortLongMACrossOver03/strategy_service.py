@@ -12,10 +12,9 @@ def ema(values, period):
     values = np.array(values)
     return pd.ewma(values, span=period)[-1]
 
-#values = [9, 5, 10, 16, 5]
 #values = [10127.75, 10118.25, 10044.10, 10166.70, 10265.65]
-short_period = 2
-long_period = 5
+short_period = 5
+long_period = 20
 
 @app.route('/shortlongmacrossover/signal',methods = ['POST'])
 def handleSignal():
