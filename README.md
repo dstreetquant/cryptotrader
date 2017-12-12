@@ -7,7 +7,8 @@ Trading platform for Crypto Currencies
 3. Install Python 2.7 (better install anaconda)
 4. Set environment path for all the three above - Java, Maven, Python. Confirm path set by - "java --version", "javac", "mvn -version", "python example.py"
 5. Set VM/machine time to UTC time - e.g. in linux sync ntp timestamp
-6. Update Specific API key for exchange. e.g., for Bittrex update the API key String BITTREX_API_KEY in file cryptotrader/src/main/java/com/ritesh/cryptotrader/config/exchange/BittrexSpecificConfig.java
+6. All configurations are in respective files in module cryptotrader/src/main/java/com/ritesh/cryptotrader/config. Update any config related to price, coin, exchange etc here.
+7. Update Specific API key for exchange. e.g., for Bittrex update the API key String BITTREX_API_KEY in file cryptotrader/src/main/java/com/ritesh/cryptotrader/config/exchange/BittrexSpecificConfig.java
 
 # Running Steps
 1. Go to the path of pom.xml (root dir cryptotrader)
